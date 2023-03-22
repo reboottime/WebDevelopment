@@ -1,6 +1,7 @@
 /**
  * Author: Kate, Zhang
  * Date: 03/18/2023
+ * Update At: 03/20/2023
  */
 
 export default class HttpClient {
@@ -15,7 +16,7 @@ export default class HttpClient {
   private getRequestBody(body: unknown): { body: RequestInit["body"] } {
     if (body instanceof FormData) {
       return { body };
-    } else if (typeof body === "object" && body !== null ) {
+    } else if (typeof body === "object" && body !== null) {
       return { body: JSON.stringify(body) };
     }
 
@@ -66,49 +67,55 @@ export default class HttpClient {
   delete<T>(conf: Omit<RequestConf, "method">): Promise<T | undefined> {
     return this.request({
       ...conf,
-      method: "delete",
+      method: "DELETE",
     });
   }
 
   get<T>(conf: Omit<RequestConf, "method" | "data">): Promise<T | undefined> {
     return this.request({
       ...conf,
-      method: "get",
+      method: "GET",
     });
   }
 
   patch<T>(conf: UpdateRequestConf): Promise<T | undefined> {
     return this.request({
       ...conf,
-      method: "patch",
+      method: "PATCH",
     });
   }
 
   post<T>(conf: UpdateRequestConf): Promise<T | undefined> {
     return this.request({
       ...conf,
-      method: "post",
+      method: "POST",
     });
   }
 
   put<T>(conf: UpdateRequestConf): Promise<T | undefined> {
     return this.request({
       ...conf,
-      method: "put",
+      method: "PUT",
     });
   }
 }
 
+export type HttpClientOptions = Pick<
+  RequestInit,
+  "credentials" | "headers" | "mode"
+>;
+
+/*
 export interface HttpClientOptions {
   mode?: "no-cors" | "cors" | "same-origin";
   creadentials?: "omit" | "same-origin" | "include"; // the mechinsm about brining cookie to BE
   headers?: Record<string, string>;
-}
+}*/
 
 interface RequestConf {
   apiPath: string;
   data?: unknown;
-  method: "delete" | "get" | "post" | "patch" | "put";
+  method: "DELETE" | "GET" | "POST" | "PATCH" | "PUT";
   query?: Record<string, string> | string[][];
   headers?: HttpClientOptions["headers"];
 }
