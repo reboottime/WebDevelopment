@@ -19,7 +19,7 @@ export const useOrdersApi = () => {
   return api;
 };
 
-export const useCerateOrder = () => {
+export const useCreateOrder = () => {
   const api = useOrdersApi();
 
   return useMutation(api.createOrder);
