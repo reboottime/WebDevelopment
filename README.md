@@ -4,6 +4,7 @@
 
 - [Best Practices for Error Handling with async/await in Web Applications](https://github.com/reboottime/WebDevelopment/issues/102)
 - [Build your http client using window.fetch](https://github.com/reboottime/WebDevelopment/issues/57)
+- [Firebase usage: A view from  a first-time user](https://github.com/reboottime/WebDevelopment/issues/110)
 - [Configuring ESLint for Your JavaScript Project](https://github.com/reboottime/WebDevelopment/issues/13)
 - [Configuring ESLint for Your React Project Created with CRA](https://github.com/reboottime/WebDevelopment/issues/70)
 - [Design System concepts for Frontend Developer](https://github.com/reboottime/WebDevelopment/issues/81)
