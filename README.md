@@ -14,3 +14,4 @@
 - [Practices using git](https://github.com/reboottime/WebDevelopment/issues/15)
 - [Strategy Pattern, a good way to extend my legacy code](https://github.com/reboottime/WebDevelopment/issues/101)
 - [UI/UX Practices for Enterprise Applications](https://github.com/reboottime/WebDevelopment/issues/74)
+- [Data migration using CSV](https://github.com/reboottime/WebDevelopment/issues/152)
