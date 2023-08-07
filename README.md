@@ -11,7 +11,7 @@
 - [Keyboard navigation solution in React](https://github.com/reboottime/WebDevelopment/issues/5)
 - [Managing State in React: Exploring Redux 8.x Features ](https://github.com/reboottime/WebDevelopment/issues/32)
 - [QR Code Mobile Authentication: System and Workflow](https://github.com/reboottime/WebDevelopment/issues/86)
-- [Practices using git](https://github.com/reboottime/WebDevelopment/issues/15)
+- [Practices about using git](https://github.com/reboottime/WebDevelopment/issues/15)
 - [Strategy Pattern, a good way to extend my legacy code](https://github.com/reboottime/WebDevelopment/issues/101)
 - [UI/UX Practices for Enterprise Applications](https://github.com/reboottime/WebDevelopment/issues/74)
 - [Data migration using CSV](https://github.com/reboottime/WebDevelopment/issues/152)
