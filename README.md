@@ -2,6 +2,7 @@
 
 ## 2023
 
+- [Azure as DevOps solution for small agile team](https://github.com/reboottime/WebDevelopment/issues/165)
 - [Best Practices for Error Handling with async/await in Web Applications](https://github.com/reboottime/WebDevelopment/issues/102)
 - [Build your http client using window.fetch](https://github.com/reboottime/WebDevelopment/issues/57)
 - [Firebase usage: A view from  a first-time user](https://github.com/reboottime/WebDevelopment/issues/110)
