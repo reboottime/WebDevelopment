@@ -18,3 +18,8 @@
 - [Data migration using CSV](https://github.com/reboottime/WebDevelopment/issues/152)
 - [Intersection Observer API and its applications](https://github.com/reboottime/WebDevelopment/issues/163)
 - [Revisit Authentication Common Sense as a Web developer](https://github.com/reboottime/WebDevelopment/issues/175)
+
+
+## 2024
+
+- [Supabase Storage](https://github.com/reboottime/WebDevelopment/issues/197)
